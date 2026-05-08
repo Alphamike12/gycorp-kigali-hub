@@ -77,8 +77,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "GY Corp" },
       { property: "og:title", content: "GY Corp — Building Value. Creating Future." },
       { property: "og:description", content: "Coaching, sport & music training, cleaning and car wash services in Kigali." },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
